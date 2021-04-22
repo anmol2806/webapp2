@@ -20,7 +20,7 @@ def hello_world2():
 
 @app.route('/EDUCATION.html')
 def hello_world3():
-	return render_template(EDUCATION)    
+	return render_template('EDUCATION.html')    
 
 @app.route('/INTERNSHIPS.html')
 def hello_world4():
