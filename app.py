@@ -47,7 +47,11 @@ def hello_world7():
  
 @app.route('/TECHNICAL.html')
 def hello_world8():
-	return render_template('TECHNICAL.html')     
+	return render_template('TECHNICAL.html')  
 
+    
+@app.route('/index.html')
+def hello_world9():
+	return render_template('index.html')  
 if __name__ == '__main__':
 	app.run()
